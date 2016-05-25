@@ -1,0 +1,1332 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="samsoares-google-codeu-2780189" name="com.flatironschool.javacs.TermCounterTest" skipped="0" tests="1" time="0.892" timestamp="2016-05-25T13:53:49">
+  <properties>
+    <property name="java.vendor" value="Oracle Corporation" />
+    <property name="env.LESSOPEN" value="| /usr/bin/lesspipe %s" />
+    <property name="env.NVM_BIN" value="/home/ubuntu/.nvm/versions/node/v4.4.0/bin" />
+    <property name="sun.java.launcher" value="SUN_STANDARD" />
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+    <property name="env._system_arch" value="x86_64" />
+    <property name="env.PORT" value="8080" />
+    <property name="env.TMUX_PANE" value="%0" />
+    <property name="env.GEM_HOME" value="/usr/local/rvm/gems/ruby-2.2.1" />
+    <property name="os.name" value="Linux" />
+    <property name="sun.boot.class.path" value="/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rhino.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/classes" />
+    <property name="env.PWD" value="/home/ubuntu/workspace/cs-making-an-indexer-lab-codeU" />
+    <property name="env.LANG" value="C" />
+    <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+    <property name="env.METEOR_PORT" value="8080" />
+    <property name="ant.home" value="/usr/share/ant" />
+    <property name="env.METEOR_IP" value="0.0.0.0" />
+    <property name="java.runtime.version" value="1.7.0_95-b00" />
+    <property name="env.MY_RUBY_HOME" value="/usr/local/rvm/rubies/ruby-2.2.1" />
+    <property name="env.GOPATH" value="/home/ubuntu/workspace" />
+    <property name="env.NVM_CD_FLAGS" value="" />
+    <property name="env.rvm_version" value="1.26.11 (latest)" />
+    <property name="user.name" value="ubuntu" />
+    <property name="env._" value="/usr/local/rvm/gems/ruby-2.2.1/bin/learn-test" />
+    <property name="env.USER" value="ubuntu" />
+    <property name="env.BASH_FUNC__gnomeopen%%" value="() {  if [ -e &quot;$@&quot; ]; then&#xa; c9 &quot;$@&quot;;&#xa; return;&#xa; fi;&#xa; command xdg-open &quot;$@&quot;&#xa;}" />
+    <property name="env.SHELL" value="/bin/bash" />
+    <property name="env.NODE_PATH" value="/mnt/shared/lib/node_modules" />
+    <property name="env.C9_FULLNAME" value="Samuel Soares" />
+    <property name="env.C9_UID" value="498580" />
+    <property name="env.C9_EMAIL" value="samsoares@outlook.com" />
+    <property name="env._system_type" value="Linux" />
+    <property name="env.PATH" value="/home/ubuntu/.nvm/versions/node/v4.4.0/bin:/usr/local/rvm/gems/ruby-2.2.1/bin:/usr/local/rvm/gems/ruby-2.2.1@global/bin:/usr/local/rvm/rubies/ruby-2.2.1/bin:/mnt/shared/bin:/home/ubuntu/workspace/node_modules/.bin:/home/ubuntu/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/mnt/shared/sbin:/opt/gitl:/opt/go/bin:/mnt/shared/c9/app.nw/bin:/usr/local/rvm/bin" />
+    <property name="user.language" value="en" />
+    <property name="env.rvm_prefix" value="/usr/local" />
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/amd64" />
+    <property name="env.SSH_CONNECTION" value="::ffff:10.240.0.131 54584 ::ffff:172.17.6.16 22" />
+    <property name="ant.project.default-target" value="build" />
+    <property name="ant.project.name" value="JavaCS" />
+    <property name="env.rvm_path" value="/usr/local/rvm" />
+    <property name="env.BASH_FUNC__xdgopen%%" value="() {  if [ -e &quot;$@&quot; ]; then&#xa; c9 &quot;$@&quot;;&#xa; return;&#xa; fi;&#xa; command xdg-open &quot;$@&quot;&#xa;}" />
+    <property name="env.RUBY_VERSION" value="ruby-2.2.1" />
+    <property name="java.version" value="1.7.0_95" />
+    <property name="env.SSH_CLIENT" value="::ffff:10.240.0.131 54584 22" />
+    <property name="user.timezone" value="" />
+    <property name="sun.arch.data.model" value="64" />
+    <property name="env._system_name" value="Ubuntu" />
+    <property name="java.endorsed.dirs" value="/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/endorsed" />
+    <property name="sun.cpu.isalist" value="" />
+    <property name="sun.jnu.encoding" value="UTF-8" />
+    <property name="env.rvm_bin_path" value="/usr/local/rvm/bin" />
+    <property name="file.encoding.pkg" value="sun.io" />
+    <property name="env.SHLVL" value="3" />
+    <property name="file.separator" value="/" />
+    <property name="env._system_version" value="14.04" />
+    <property name="java.specification.name" value="Java Platform API Specification" />
+    <property name="java.class.version" value="51.0" />
+    <property name="env.C9_PID" value="2780189" />
+    <property name="ant.file.JavaCS" value="/home/ubuntu/workspace/cs-making-an-indexer-lab-codeU/javacs-lab06/build.xml" />
+    <property name="java.home" value="/usr/lib/jvm/java-7-openjdk-amd64/jre" />
+    <property name="env.IP" value="0.0.0.0" />
+    <property name="java.vm.info" value="mixed mode" />
+    <property name="env.LOGNAME" value="ubuntu" />
+    <property name="ant.file" value="/home/ubuntu/workspace/cs-making-an-indexer-lab-codeU/javacs-lab06/build.xml" />
+    <property name="os.version" value="4.2.0-c9" />
+    <property name="env.APACHE_RUN_USER" value="ubuntu" />
+    <property name="path.separator" value=":" />
+    <property name="env._ORIGINAL_GEM_PATH" value="/usr/local/rvm/gems/ruby-2.2.1:/usr/local/rvm/gems/ruby-2.2.1@global" />
+    <property name="java.vm.version" value="24.95-b01" />
+    <property name="env.C9_IP" value="0.0.0.0" />
+    <property name="env.LANGUAGE" value="C.UTF-8" />
+    <property name="env.PHPRC" value="/home/ubuntu/workspace" />
+    <property name="ant.library.dir" value="/usr/share/ant/lib" />
+    <property name="env.rvm_silence_path_mismatch_check_flag" value="1" />
+    <property name="env.GOROOT" value="/opt/go" />
+    <property name="env.APACHE_RUN_DIR" value="/home/ubuntu/lib/apache2/run" />
+    <property name="env.NVM_NODEJS_ORG_MIRROR" value="https://nodejs.org/dist" />
+    <property name="junit.output.dir" value="junit" />
+    <property name="env.APACHE_RUN_GROUP" value="ubuntu" />
+    <property name="env.IRBRC" value="/usr/local/rvm/rubies/ruby-2.2.1/.irbrc" />
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob" />
+    <property name="env.TERM" value="screen" />
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit" />
+    <property name="env.MANPATH" value="/home/ubuntu/.nvm/versions/node/v4.4.0/share/man:/usr/local/rvm/rubies/ruby-2.2.1/share/man:/usr/local/man:/usr/local/share/man:/usr/share/man:/usr/local/rvm/man" />
+    <property name="env.GEM_PATH" value="/usr/local/rvm/gems/ruby-2.2.1:/usr/local/rvm/gems/ruby-2.2.1@global" />
+    <property name="env.EMAIL" value="samsoares@outlook.com" />
+    <property name="env.C9_SH_EXECUTED" value="1" />
+    <property name="user.home" value="/home/ubuntu" />
+    <property name="target" value="1.7" />
+    <property name="env.OLDPWD" value="/home/ubuntu/workspace/cs-making-an-indexer-lab-codeU/javacs-lab06" />
+    <property name="java.specification.vendor" value="Oracle Corporation" />
+    <property name="java.library.path" value="~/.c9/local/lib:/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib" />
+    <property name="java.vendor.url" value="http://java.oracle.com/" />
+    <property name="java.vm.vendor" value="Oracle Corporation" />
+    <property name="env.C9_PROJECT" value="google-codeu" />
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment" />
+    <property name="ant.version" value="Apache Ant(TM) version 1.9.3 compiled on April 8 2014" />
+    <property name="java.class.path" value="/home/ubuntu/workspace/cs-making-an-indexer-lab-codeU/javacs-lab06/bin:/home/ubuntu/workspace/cs-making-an-indexer-lab-codeU/javacs-lab06/lib/jsoup-1.8.3.jar:/home/ubuntu/workspace/cs-making-an-indexer-lab-codeU/javacs-lab06/lib/junit-4.12.jar:/home/ubuntu/workspace/cs-making-an-indexer-lab-codeU/javacs-lab06/lib/hamcrest-core-1.3.jar:/usr/share/ant/lib/junit.jar:/usr/share/java/ant-launcher-1.9.3.jar:/usr/share/ant/lib/ant.jar:/usr/share/ant/lib/ant-junit.jar:/usr/share/ant/lib/ant-junit4.jar" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner com.flatironschool.javacs.TermCounterTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.OutErrSummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/home/ubuntu/workspace/cs-making-an-indexer-lab-codeU/javacs-lab06/junit/TEST-com.flatironschool.javacs.TermCounterTest.xml formatter=org.apache.tools.ant.taskdefs.optional.junit.PlainJUnitResultFormatter crashfile=/home/ubuntu/workspace/cs-making-an-indexer-lab-codeU/javacs-lab06/junitvmwatcher1827583084213907278.properties propsfile=/home/ubuntu/workspace/cs-making-an-indexer-lab-codeU/javacs-lab06/junit4010704668998040188.properties" />
+    <property name="ant.file.type.JavaCS" value="file" />
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+    <property name="ant.file.type" value="file" />
+    <property name="env.TMUX" value="/tmp/tmux-1000/cloud91.8,869,0" />
+    <property name="java.vm.specification.version" value="1.7" />
+    <property name="sun.cpu.endian" value="little" />
+    <property name="sun.os.patch.level" value="unknown" />
+    <property name="debuglevel" value="source,lines,vars" />
+    <property name="env.HOME" value="/home/ubuntu" />
+    <property name="env.HGUSER" value="Samuel Soares" />
+    <property name="env.LD_LIBRARY_PATH" value="~/.c9/local/lib" />
+    <property name="java.io.tmpdir" value="/tmp" />
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+    <property name="env.NVM_PATH" value="/home/ubuntu/.nvm/versions/node/v4.4.0/lib/node" />
+    <property name="env.APACHE_LOCK_DIR" value="/home/ubuntu/lib/apache2/lock" />
+    <property name="env.ISOUTPUTPANE" value="0" />
+    <property name="env.C9_PORT" value="8080" />
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment" />
+    <property name="os.arch" value="amd64" />
+    <property name="java.ext.dirs" value="/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext:/usr/java/packages/lib/ext" />
+    <property name="user.dir" value="/home/ubuntu/workspace/cs-making-an-indexer-lab-codeU" />
+    <property name="env.C9_HOSTNAME" value="google-codeu-samsoares.c9users.io" />
+    <property name="env.APACHE_PID_FILE" value="/home/ubuntu/lib/apache2/run/apache2.pid" />
+    <property name="env.LC_ALL" value="C.UTF-8" />
+    <property name="line.separator" value="&#xa;" />
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM" />
+    <property name="env.NVM_IOJS_ORG_MIRROR" value="https://iojs.org/dist" />
+    <property name="basedir" value="/home/ubuntu/workspace/cs-making-an-indexer-lab-codeU/javacs-lab06" />
+    <property name="env.APACHE_LOG_DIR" value="/home/ubuntu/lib/apache2/log" />
+    <property name="ant.java.version" value="1.7" />
+    <property name="ant.core.lib" value="/usr/share/ant/lib/ant.jar" />
+    <property name="source" value="1.7" />
+    <property name="env.C9_USER" value="samsoares" />
+    <property name="file.encoding" value="UTF-8" />
+    <property name="env.NVM_DIR" value="/home/ubuntu/.nvm" />
+    <property name="env.C9_SHARED" value="/mnt/shared" />
+    <property name="java.specification.version" value="1.7" />
+    <property name="ant.project.invoked-targets" value="test" />
+    <property name="env.LESSCLOSE" value="/usr/bin/lesspipe %s %s" />
+  </properties>
+  <testcase classname="com.flatironschool.javacs.TermCounterTest" name="testSize" time="0.786" />
+  <system-out><![CDATA[, 336
+president, 1
+developed, 3
+desktop, 1
+particular, 1
+parts, 1
+creates, 3
+managing, 1
+party, 1
+ecma, 2
+time, 8
+refer, 1
+created, 4
+event, 2
+declared, 1
+advanced, 1
+role, 1
+right, 1
+generation, 1
+objects, 11
+arthur, 1
+these, 5
+opened, 2
+clones, 1
+alternate, 1
+host, 4
+essential, 1
+loading, 1
+$, 1
+told, 1
+respectively, 1
+regard, 1
+few, 1
+2, 3
+project, 2
+1, 9
+0, 4
+native, 3
+7, 3
+6, 2
+discuss, 1
+5, 3
+multi, 1
+9, 1
+components, 2
+each, 5
+8, 3
+>, 1
+<, 1
+array, 4
+fqcn, 1
+installed, 1
+javaserver, 1
+made, 1
+drawing, 1
+ensures, 1
+renamed, 3
+times, 1
+side, 4
+usually, 2
+classes, 19
+declares, 1
+e, 5
+c, 4
+prevents, 1
+a, 101
+meaning, 1
+specifications, 1
+i, 5
+standards, 3
+new, 5
+including, 1
+s, 17
+ioexception, 1
+predict, 1
+library, 8
+introduced, 1
+having, 2
+exiting, 1
+public, 16
+x, 2
+libraries, 3
+steward, 1
+client, 5
+basis, 2
+anywhere, 2
+exception, 2
+apache, 1
+architecture, 2
+printstream, 1
+has, 11
+software, 9
+height, 1
+component, 4
+description, 1
+jar, 2
+reputation, 1
+had, 4
+paintcomponent, 4
+notable, 1
+automatic, 2
+derives, 1
+label, 1
+display, 8
+code, 21
+preferred, 1
+much, 2
+lacking, 1
+consoles, 1
+particularly, 1
+leak, 2
+override, 1
+often, 1
+active, 1
+fewer, 1
+make, 3
+large, 2
+extending, 1
+update, 1
+named, 2
+van, 1
+through, 5
+analysis, 2
+business, 1
+response, 5
+released, 5
+following, 2
+possible, 3
+controversy, 1
+statements, 2
+name, 14
+universal, 1
+offset, 1
+facilities, 1
+april, 1
+lay, 1
+cable, 1
+finished, 1
+compilation, 3
+vulnerabilities, 1
+main, 12
+hello, 16
+never, 1
+which, 20
+source, 10
+there, 6
+inside, 3
+java, 148
+jdk, 2
+attributes, 1
+accessed, 1
+programmer, 3
+package, 2
+javadoc, 6
+distributions, 1
+shortly, 1
+sufficient, 1
+languages, 3
+improved, 1
+overhead, 2
+errors, 2
+given, 1
+respond, 1
+fostering, 1
+recently, 1
+graphical, 3
+oriented, 4
+influenced, 1
+capability, 1
+itself, 4
+subtypes, 1
+element, 2
+reported, 1
+support, 10
+interpreted, 1
+hold, 1
+segmented, 1
+distribution, 1
+unofficial, 1
+jni, 1
+http, 2
+jcomponent, 1
+will, 2
+pointer, 2
+holds, 1
+bar, 2
+publicly, 2
+upon, 1
+virtual, 12
+recovering, 1
+television, 2
+commenting, 2
+explicitly, 4
+aspects, 1
+executable, 1
+thought, 1
+decision, 1
+<applet>, 1
+anonymous, 1
+acquisition, 2
+analogous, 1
+supported, 7
+browser, 4
+rather, 1
+hierarchy, 3
+modifiers, 1
+products, 1
+built, 3
+primitive, 3
+note, 1
+portion, 1
+responding, 1
+marketing, 1
+green, 2
+void, 3
+motif, 1
+haskell, 1
+implements, 1
+freed, 1
+method, 31
+porting, 1
+partially, 1
+rmi, 1
+integers, 3
+single, 2
+jit, 1
+contains, 7
+since, 2
+where, 4
+type, 5
+every, 1
+related, 2
+almost, 4
+hoff, 1
+january, 1
+request, 3
+primary, 2
+applications, 11
+ideally, 1
+writer, 1
+required, 2
+concatenation, 1
+extends, 3
+means, 3
+designated, 1
+printing, 2
+embedded, 2
+filing, 1
+requires, 1
+classpath, 1
+apple, 1
+owner, 1
+scale, 1
+gosling, 5
+security, 3
+considered, 1
+while, 3
+subset, 1
+allows, 6
+automatically, 2
+below, 1
+relevant, 1
+major, 2
+revenue, 1
+adapted, 1
+added, 3
+validation, 1
+into, 5
+francisco, 1
+problem, 3
+inherited, 5
+offer, 1
+interface, 5
+suffix, 1
+pass, 1
+implementation, 18
+gtk+, 1
+scientific, 1
+insists, 1
+characteristic, 1
+consistent, 1
+also, 9
+step, 1
+j2ee, 1
+etc, 1
+its, 10
+manage, 2
+garbage, 10
+plugin, 1
+although, 5
+concurrent, 2
+width=, 1
+comprehensive, 1
+designers, 1
+rigorous, 1
+boolean, 3
+along, 1
+elements, 1
+alone, 1
+structured, 1
+responsibility, 1
+naughton, 1
+certify, 1
+static, 9
+selling, 1
+iso, 2
+contents, 1
+adequate, 1
+under, 6
+styles, 1
+became, 1
+intermediate, 2
+indicated, 1
+always, 1
+calls, 3
+variables, 1
+system, 11
+unreachable, 1
+conscious, 1
+devices, 2
+specify, 1
+indicates, 2
+low, 2
+graphic, 2
+cms, 1
+states, 1
+use, 12
+platforms, 8
+run, 14
+difficult, 1
+gnu, 5
+slower, 1
+deallocated, 2
+designed, 4
+written, 9
+license, 4
+editions, 1
+allocate, 1
+historically, 1
+supplied, 1
+works, 1
+either, 4
+arguments, 3
+presence, 1
+remain, 1
+original, 2
+debugger, 1
+quickly, 1
+world, 6
+arbitrary, 1
+become, 1
+perform, 1
+requiring, 1
+must, 6
+gpl, 3
+values, 1
+println, 2
+javax, 4
+comply, 1
+crash, 1
+fields, 1
+control, 5
+declaration, 2
+exclusively, 1
+behind, 1
+openjdk, 2
+cost, 1
+sweep, 1
+modifier, 1
+whereas, 1
+december, 1
+enables, 1
+syntax, 5
+whom, 1
+recompilation, 1
+several, 1
+case, 1
+identifier, 1
+early, 1
+legal, 3
+advent, 1
+generate, 3
+can, 18
+instantiates, 2
+invoked, 2
+spared, 1
+initially, 2
+collector, 6
+servletrequest, 2
+federal, 1
+performance, 2
+placed, 1
+multiple, 8
+triggered, 1
+profile, 1
+interpreting, 1
+slashes, 1
+resulted, 1
+community, 4
+soon, 2
+general, 3
+reference, 4
+tablet, 1
+charge, 1
+originally, 3
+effect, 1
+usage, 1
+core, 2
+latest, 1
+stringbuilder, 1
+lacks, 1
+javabeans, 1
+everything, 1
+mechanism, 1
+feels, 1
+corporation, 3
+draw, 1
+annotation, 1
+gui, 2
+tree, 1
+nonexistent, 1
+pairings, 1
+industry, 1
+citation, 2
+platform, 13
+million, 2
+servlets, 1
+alsup, 1
+extra, 1
+like, 1
+jsps, 1
+approached, 1
+goal, 2
+non, 1
+many, 4
+not, 19
+collectors, 2
+san, 1
+displayed, 3
+logical, 1
+combination, 1
+mime, 1
+aqua, 1
+some, 5
+outside, 2
+stream, 1
+compiles, 1
+pixel, 2
+licences, 1
+operates, 1
+complexity, 1
+centers, 1
+purposes, 1
+secure, 1
+line, 6
+initialized, 1
+escape, 1
+fairly, 1
+launches, 1
+computers, 1
+exceptions, 3
+launcher, 2
+optimized, 1
+dependencies, 1
+starting, 1
+reversed, 1
+opposed, 1
+district, 1
+resigned, 1
+jury, 1
+end, 2
+launched, 1
+just, 2
+networking, 1
+slowly, 1
+containers, 1
+corner, 1
+overrides, 2
+let, 1
+return, 1
+already, 1
+kernel, 1
+stored, 3
+framework, 1
+servlet, 8
+process, 7
+led, 1
+compiled, 5
+enclosing, 1
+compiler, 9
+initializes, 1
+despite, 1
+allowed, 1
+but, 10
+belong, 1
+formalize, 1
+restrictions, 1
+remedied, 1
+allocated, 2
+used, 10
+been, 7
+specialized, 1
+heap, 4
+sent, 1
+longer, 4
+swing, 8
+status, 1
+patrick, 1
+enterprise, 3
+mark, 1
+denotes, 1
+formal, 1
+representation, 1
+floating, 2
+known, 2
+characters, 1
+generic, 2
+call, 1
+june, 1
+attribute, 1
+calling, 2
+appends, 1
+currently, 2
+purpose, 1
+oracle, 14
+documenting, 1
+microsoft, 4
+because, 3
+upper, 1
+another, 1
+full, 1
+making, 1
+won, 1
+jframe, 4
+infringed, 1
+microcontrollers, 1
+beginning, 1
+laptops, 1
+ultimately, 1
+keyword, 4
+potential, 1
+addition, 2
+inheritance, 2
+dalvik, 1
+goals, 1
+instead, 4
+deallocate, 2
+pillar, 1
+special, 1
+relicensed, 1
+uses, 5
+started, 1
+significantly, 1
+their, 9
+first, 6
+user, 4
+clients, 2
+need, 2
+2009, 1
+using, 8
+2006, 2
+said, 1
+2007, 2
+2004, 1
+dispatching, 2
+j2se, 3
+supports, 1
+featured, 1
+until, 1
+becoming, 1
+free, 4
+references, 1
+arithmetic, 2
+located, 1
+thread, 2
+relentless, 1
+2012, 2
+features, 5
+began, 1
+interfaces, 4
+2010, 2
+something, 1
+kit, 1
+once, 6
+2014, 1
+200, 2
+2015, 1
+copyrights, 1
+promised, 1
+2016, 1
+convention, 1
+featuring, 1
+companies, 2
+number, 2
+subclasses, 1
+superclass, 5
+explicit, 1
+introduction, 2
+computer, 2
+typically, 8
+us$20, 1
+mac, 2
+handling, 1
+execution, 1
+de, 2
+lawsuit, 1
+programming, 4
+could, 1
+write, 4
+current, 2
+left, 1
+do, 1
+optimizations, 1
+checking, 1
+look, 3
+stood, 1
+deprecated, 1
+may, 13
+integer, 1
+apis, 7
+needs, 2
+converted, 2
+web, 11
+standardization, 1
+traditional, 1
+operator, 1
+history, 1
+insufficient, 1
+independent, 3
+starts, 1
+ee, 4
+configurable, 1
+c++, 10
+g1, 1
+configuration, 1
+returned, 3
+2001, 1
+comments, 4
+2000, 1
+methods, 8
+edition, 1
+body, 1
+height=, 1
+stall, 1
+args, 4
+normal, 1
+by, 38
+mike, 1
+long, 1
+close, 5
+transparency, 1
+facto, 2
+releasing, 1
+packaged, 1
+would, 1
+unlike, 2
+helloworldapp, 2
+any, 11
+optional, 1
+sdk, 2
+aims, 1
+key, 1
+iec, 2
+be, 30
+packages, 4
+keywords, 1
+likely, 1
+environments, 3
+strictly, 1
+and, 99
+bytecode, 11
+semantically, 1
+better, 1
+against, 1
+containing, 2
+example, 4
+mobile, 2
+does, 9
+servletexception, 1
+terminate, 2
+vice, 1
+set, 5
+generics, 4
+existing, 1
+chosen, 1
+organization, 1
+style, 6
+types, 6
+members, 1
+all, 9
+individuals, 1
+printf, 1
+functionality, 1
+parallel, 1
+pluggable, 1
+five, 1
+speed, 2
+makes, 2
+at, 7
+as, 42
+still, 5
+game, 1
+referenced, 4
+memory, 16
+see, 2
+stand, 1
+an, 35
+off, 1
+disposed, 2
+william, 1
+they, 3
+simplifies, 1
+no, 7
+implementations, 6
+court, 2
+operation, 1
+of, 116
+lifecycle, 3
+on, 25
+only, 8
+import, 4
+fully, 1
+commercial, 1
+creating, 1
+programs, 8
+os, 2
+commitment, 1
+microsystems, 8
+or, 17
+third, 1
+guaranteed, 1
+setcontenttype, 1
+responses, 2
+include, 5
+managed, 1
+enabling, 1
+earlier, 1
+operating, 4
+them, 1
+then, 4
+small, 1
+enforcing, 1
+accessing, 1
+caller, 1
+different, 9
+creation, 3
+icedtea, 1
+hardware, 5
+development, 4
+subject, 1
+influence, 1
+most, 3
+relocate, 1
+aside, 1
+sheridan, 1
+allowing, 1
+oak, 2
+harmony, 1
+me, 2
+closed, 3
+null, 1
+similar, 2
+ideas, 1
+files, 1
+pages, 4
+ideal, 1
+true, 2
+machines, 1
+sued, 1
+idle, 1
+specified, 1
+inconsistent, 1
+item, 1
+specifies, 1
+within, 1
+design, 3
+qualified, 1
+described, 1
+technology, 2
+cause, 2
+remains, 2
+being, 1
+actually, 1
+prior, 2
+looks, 1
+level, 4
+more, 6
+inc, 1
+participation, 1
+when, 9
+value, 1
+underlying, 1
+sets, 1
+programmers, 2
+official, 2
+november, 1
+such, 10
+int, 3
+controlled, 2
+executables, 1
+machine, 18
+statement, 1
+operate, 1
+called, 15
+executing, 1
+included, 1
+stack, 2
+causes, 3
+this, 22
+release, 2
+commonly, 2
+j2, 1
+targeting, 2
+recognized, 1
+pointers, 1
+applets, 6
+becomes, 1
+participating, 1
+runtime, 7
+way, 2
+from, 25
+standalone, 1
+includes, 2
+add, 3
+stage, 1
+network, 1
+interchangeably, 1
+was, 12
+supercomputers, 1
+resides, 1
+selected, 1
+withdrew, 1
+achieved, 1
+implicitly, 1
+if, 9
+cooperation, 1
+applet, 15
+treated, 1
+between, 1
+constructor, 2
+j2me, 1
+is, 93
+application, 8
+those, 3
+it, 28
+standard, 9
+delimiters, 3
+evangelist, 1
+asterisk, 1
+similarly, 1
+in, 73
+print, 1
+io, 1
+section, 2
+two, 2
+aids, 1
+hidden, 1
+suited, 1
+smart, 1
+found, 1
+passed, 5
+ansi, 1
+determines, 1
+35, 1
+36, 1
+33, 1
+xp, 1
+34, 1
+39, 1
+37, 1
+occurs, 1
+38, 1
+installation, 1
+43, 1
+forward, 1
+42, 1
+41, 1
+40, 1
+happen, 1
+option, 1
+defined, 3
+anti, 1
+international, 2
+22, 1
+organized, 2
+23, 1
+24, 1
+windows, 4
+copyright, 1
+available, 4
+25, 1
+code=, 1
+26, 1
+27, 2
+28, 1
+declare, 1
+29, 1
+content, 1
+defines, 1
+30, 1
+dropped, 1
+simply, 1
+trademark, 1
+32, 1
+31, 2
+own, 4
+face, 1
+vm, 3
+events, 1
+19, 1
+simple, 3
+next, 1
+data, 9
+17, 1
+18, 1
+jvm, 4
+15, 3
+16, 1
+collection, 2
+13, 2
+reasons, 2
+14, 1
+digital, 1
+1995, 2
+21, 1
+executed, 3
+reuses, 1
+20, 1
+document, 1
+1997, 3
+1998, 2
+easy, 1
+1991, 1
+numbers, 2
+whenever, 1
+1999, 1
+accepts, 1
+ability, 1
+mostly, 1
+compiling, 1
+direct, 3
+later, 4
+threading, 1
+settlement, 1
+front, 1
+cannot, 2
+field, 1
+familiar, 1
+replace, 1
+10, 1
+pattern, 1
+windowconstants, 1
+string, 17
+jazelle, 1
+documentation, 2
+runs, 2
+part, 2
+variable, 2
+combines, 1
+to, 115
+scavenge, 1
+portable, 1
+both, 1
+instructions, 2
+provide, 4
+personaljava, 1
+inner, 2
+terms, 3
+eligible, 1
+after, 5
+assertions, 1
+parameters, 1
+instance, 4
+overloading, 1
+text, 1
+jsp, 2
+however, 6
+so, 2
+dispute, 2
+width, 1
+coffee, 1
+alternative, 2
+se, 8
+providing, 1
+intended, 4
+size, 1
+james, 3
+that, 48
+frame, 5
+associated, 1
+generated, 2
+than, 5
+browsers, 2
+require, 1
+jtc, 1
+result, 2
+model, 1
+android, 13
+56, 1
+55, 1
+getwriter, 1
+jlabel, 1
+portability, 1
+well, 3
+re, 1
+sun, 29
+setdefaultcloseoperation, 1
+drawstring, 1
+undefined, 1
+compatible, 2
+65, 1
+four, 1
+60, 1
+compilers, 2
+too, 1
+top, 1
+49, 1
+48, 1
+feel, 3
+separate, 2
+45, 1
+44, 1
+47, 1
+46, 1
+provides, 7
+needed, 4
+supporting, 1
+directed, 1
+51, 1
+service, 4
+provided, 1
+circuit, 1
+52, 1
+53, 1
+html, 7
+server, 8
+54, 1
+certain, 1
+jre, 2
+reimplementation, 1
+50, 1
+handler, 1
+out, 4
+specifically, 2
+for, 66
+tag, 3
+accept, 1
+foss, 1
+went, 1
+open, 3
+are, 30
+page, 2
+burden, 1
+file, 11
+initiated, 1
+arm, 2
+groups, 1
+unstable, 1
+preventing, 1
+others, 2
+form, 1
+did, 3
+prevent, 2
+without, 5
+create, 4
+exit, 4
+container, 7
+language, 16
+addresses, 2
+google, 5
+additionally, 1
+launch, 1
+appending, 1
+finally, 1
+momentarily, 1
+private, 1
+version, 3
+title, 3
+latter, 1
+judge, 1
+dates, 1
+compile, 3
+command, 2
+acquired, 1
+hotspot, 3
+printwriter, 1
+regardless, 1
+appletcontext, 1
+united, 1
+95, 1
+setvisible, 1
+responsible, 1
+smartphones, 1
+90, 1
+appeals, 1
+access, 7
+unsigned, 2
+developers, 6
+point, 2
+directory, 1
+proprietary, 2
+brand, 1
+based, 4
+users, 2
+appended, 1
+pack, 1
+compliance, 1
+though, 1
+requests, 4
+were, 5
+tools, 1
+incorporated, 1
+three, 2
+returns, 1
+directly, 2
+systems, 1
+translates, 1
+thrown, 1
+marked, 1
+throws, 1
+leaks, 1
+copyrighted, 2
+class, 49
+criticisms, 1
+embed, 2
+producing, 1
+awt, 4
+environment, 3
+default, 3
+superseded, 1
+window, 5
+bytecodes, 1
+program, 14
+identical, 2
+contain, 4
+popular, 4
+wora, 2
+even, 1
+passing, 2
+management, 3
+efficient, 1
+other, 9
+allow, 1
+have, 9
+specific, 7
+one, 7
+japplet, 7
+contained, 1
+licenses, 1
+object, 23
+merely, 1
+routines, 1
+parameter, 4
+protected, 1
+interactive, 1
+order, 2
+during, 1
+attempts, 1
+graphics, 4
+ships, 1
+licensed, 1
+widget, 1
+find, 1
+office, 1
+with, 36
+error, 1
+rich, 1
+the, 339
+linux, 2
+processors, 1
+ruled, 1
+manual, 1
+technologies, 3
+versions, 5
+safety, 2
+largely, 2
+context, 2
+specification, 1
+solaris, 1
+genericservlet, 2
+configurations, 1
+claimed, 1
+servletresponse, 2
+occur, 2
+Total of all counts = 4798
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
